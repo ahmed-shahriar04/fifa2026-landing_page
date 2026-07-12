@@ -10,4 +10,134 @@
     --col1: #F4C430;
     --col2: #000102;
     --col3: #A73131;
+    --col4: #666666;
+}
+
+body{
+    font-family: var(--font);
+}
+
+/*Common items*/
+
+.common-btn{
+    border: none;
+    background-color: var(--col1);
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.hr-line{}
+
+.common-list {
+    display: flex;
+    gap: 25px;
+}
+
+.common-list li {
+    list-style: none;
+}
+
+.mw-m{
+    max-width: 1850px;
+    margin: auto;
+}
+
+.mb{
+    margin-bottom: 50px;
+}
+
+.mt{}
+
+/*Common items end*/
+
+
+/*Nav section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10px;
+    align-items: center;
+}
+
+.logo-left{
+    width: 150px;
+    object-fit: contain;
+}
+
+.middle ul li{
+    font-size: 18px;
+    color: var(--col4);
+}
+
+/*Hero items (header)*/
+.hero {
+    background-image:
+        linear-gradient(
+            to top right,
+            rgba(0, 0, 0, 0.9) 0%,
+            rgba(0, 0, 0, 0.5) 35%,
+            transparent 70%
+        ),
+        url('./assets/Background.png');
+
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 30px;
+    padding-bottom: 150px;
+    justify-content: flex-end;
+}
+
+.hero-btn{
+    align-self: flex-start;
+}
+
+.hero-title-container{
+    max-width: 470px;
+    color: var(--bg-col);
+}
+
+.hero-title{
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.hero-details{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*Count section*/
+
+.counting-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.count{
+    background-color: var(--col1);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count-title{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.amount{
+    font-size: 72px;
+    font-weight: 700;
 }

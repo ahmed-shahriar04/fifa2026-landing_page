@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <nav>
+
+    <nav class="mw-m">
       <img src="./assets/logo-top.png" alt="logo" class="logo-left" />
       <div class="middle">
-        <ul>
+        <ul class="common-list">
           <li>Tournament</li>
           <li>Host Cities</li>
           <li>Groups</li>
@@ -24,42 +25,40 @@
       <button class="common-btn">Buy Tickets <i class="fa-solid fa-chevron-right"></i></button>
     </nav>
 
-    <header>
+    <header class="mw-m mb">
       <div class="hero">
         <div class="hero-title-container">
-          <h1 class="hero-title">One Game</h1>
-          <h1 class="hero-title">48 Nations</h1>
-          <h1 class="hero-title">One World</h1>
+          <h1 class="hero-title">One Game. 48 Nations. One World.</h1>
+          <p class="hero-details">Witness history in the making as the world's biggest football tournament scales to unprecedented heights. Secure your place in the stands today.</p>
         </div>
-        <p class="hero-details"></p>
-        <button class="common-btn">Book Tickets Now <i class="fa-solid fa-chevron-right"></i></button>
+          <button class="common-btn hero-btn">Book Tickets Now <i class="fa-solid fa-chevron-right"></i></button>
       </div>
     </header>
 
-    <section class="count">
-        <div class="ticket-sold">
+    <section class="count mw-m mb">
+        <div class="counting-items">
             <p class="count-title">Tickets Sold</p>
             <h1 class="amount">1M</h1>
         </div>
-        <div class="capacity-count">
-            <p class="count-title">Tickets Sold</p>
-            <h1 class="amount">1M</h1>
+        <div class="counting-items">
+            <p class="count-title">Stadium Capacity Reached</p>
+            <h1 class="amount">80%</h1>
         </div>
-        <div class="live-coverage">
-            <p class="count-title">Tickets Sold</p>
-            <h1 class="amount">1M</h1>
+        <div class="counting-items">
+            <p class="count-title">Hours of Live Coverage</p>
+            <h1 class="amount">2K</h1>
         </div>
-        <div class="fan-ratings">
-            <p class="count-title">Tickets Sold</p>
-            <h1 class="amount">1M</h1>
+        <div class="counting-items">
+            <p class="count-title">Fan Satisfaction Rating</p>
+            <h1 class="amount">99%</h1>
         </div>
     </section>
 
-    <section class="explore">
+    <section class="explore mw-m">
         <h1 class="explore-title">Explore Host Cities</h1>
         <div class="explore-cards-container">
             <div class="single-card">
-                <img src="./assets/NewYork.png" alt="newyork" class="exp-left">
+                <img src="./assets/NewYork.jpg" alt="newyork" class="exp-left">
                 <div class="exp-right">
                     <h2 class="card-title">New York / New Jersey</h2>
                     <p class="card-details">From the opening whistle at Mexico City's iconic Estadio Azteca to the final under the lights of MetLife Stadium, 104 matches will unfold across 16 cities. From the opening whistle at Mexico City's iconic Estadio Azteca to the final under the lights of MetLife Stadium, 104 matches will unfold across 16 cities.</p>
@@ -73,7 +72,7 @@
                 </div>
             </div>
             <div class="single-card">
-                <img src="./assets/NewYork.png" alt="newyork" class="exp-left">
+                <img src="./assets/maxico.jpg" alt="maxico" class="exp-left">
                 <div class="exp-right">
                     <h2 class="card-title">Mexico City</h2>
                     <p class="card-details">From the opening whistle at Mexico City's iconic Estadio Azteca to the final under the lights of MetLife Stadium, 104 matches will unfold across 16 cities. From the opening whistle at Mexico City's iconic Estadio Azteca to the final under the lights of MetLife Stadium, 104 matches will unfold across 16 cities.</p>
@@ -87,7 +86,7 @@
                 </div>
             </div>
             <div class="single-card">
-                <img src="./assets/NewYork.png" alt="newyork" class="exp-left">
+                <img src="./assets/toronto.jpg" alt="toronto" class="exp-left">
                 <div class="exp-right">
                     <h2 class="card-title">Toronto</h2>
                     <p class="card-details">From the opening whistle at Mexico City's iconic Estadio Azteca to the final under the lights of MetLife Stadium, 104 matches will unfold across 16 cities. From the opening whistle at Mexico City's iconic Estadio Azteca to the final under the lights of MetLife Stadium, 104 matches will unfold across 16 cities.</p>
@@ -101,7 +100,7 @@
                 </div>
             </div>
             <div class="single-card">
-                <img src="./assets/NewYork.png" alt="newyork" class="exp-left">
+                <img src="./assets/vanacouver.jpg" alt="Vancouver" class="exp-left">
                 <div class="exp-right">
                     <h2 class="card-title">Vancouver</h2>
                     <p class="card-details">From the opening whistle at Mexico City's iconic Estadio Azteca to the final under the lights of MetLife Stadium, 104 matches will unfold across 16 cities. From the opening whistle at Mexico City's iconic Estadio Azteca to the final under the lights of MetLife Stadium, 104 matches will unfold across 16 cities.</p>
@@ -118,8 +117,48 @@
         <button class="common-btn">Discover Every Host Venue <i class="fa-solid fa-chevron-right"></i></button>
     </section>
 
-    <section class="match-table">
-        
+    <section class="match-table mw-m">
+        <div class="table-container">
+            <h2 class="table-title">Matches to circle</h2>
+            <p class="table-details">A first look at the tournament's most anticipated dates — from the opening celebration in Mexico City to the final in New York.</p>
+
+            <table>
+
+            </table>
+        </div>
     </section>
+
+    <section class="missing-part mw-m"></section>
+
+    <footer class="mw-m">
+        <div class="top">
+            <div class="left-foot">
+                <img src="./assets/logo-foot.png" alt="logo-footer" class="foot-logo">
+                <p class="logo-title">FIFA WORLD CUP 2026</p>
+            </div>
+            <div class="right-foot">
+                <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-linkedin-in"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="hr-line"></div>
+
+        <div class="bottom">
+            <div class="left-bot-foot">
+                <p class="copy">&copy; Copyright 2026</p>
+                <p class="reserved-txt">All right reserved</p>
+            </div>
+
+            <div class="right-bot-foot">
+                <p class="term">Terms &amp; Conditions</p>
+                <p class="privacy">Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
   </body>
 </html>
