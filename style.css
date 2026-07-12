@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font: "Host Grotesk", sans-serif;
+    --bg-col: #FFFFFF;
+    --col1: #F4C430;
+    --col2: #000102;
+    --col3: #A73131;
+}
